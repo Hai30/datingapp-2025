@@ -484,3 +484,96 @@ $RECYCLE.BIN/
 *.swp
 API/appsettings.json
 API/dating.db
+a########################################
+# ASP.NET Core / Visual Studio
+########################################
+## Build results
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.app
+*.log
+*.pdb
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code settings
+.vscode/
+
+## Visual Studio folders
+.vs/
+TestResults/
+*.dbmdl
+
+## NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## Entity Framework
+Migrations/
+
+## ASP.NET Core secrets
+secrets.json
+
+## Publish output
+wwwroot/
+publish/
+*.Publish.xml
+
+## Rider
+.idea/
+
+########################################
+# Node.js / Angular
+########################################
+## Dependencies
+node_modules/
+bower_components/
+
+## Build output
+dist/
+tmp/
+out-tsc/
+coverage/
+
+## Angular specific
+.angular/
+.angular-cache/
+
+## Environment files
+.env
+.env.*.local
+
+## IDEs and editors
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+## Others
+*.tgz
+*.zipa
+*.tar.gz
+*.7z
+*.rar
