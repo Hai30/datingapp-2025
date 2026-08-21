@@ -1,5 +1,6 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Build.Framework;
 
 namespace API.Controllers;
 
@@ -28,7 +29,6 @@ public class BuggyController : BaseApiController
     {
         return BadRequest("This is not a good request");
     }
-
-
-}
+    
+}   
 
