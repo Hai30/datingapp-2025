@@ -9,4 +9,5 @@ public interface IMemberRepository
     Task<IReadOnlyList<Member>> GetMembersAsync();
     Task<Member?> GetMemberByIdAsync(string Id);
     Task<IReadOnlyList<Photo>> GetPhotosForMemberAsync(string MemberId);
+    Task<Member?> GetMemberForUpdate(string Id);
 }
