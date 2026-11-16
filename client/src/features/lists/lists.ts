@@ -38,7 +38,7 @@ export class Lists implements OnInit{
 
   loadLikes() {
     this.likesService.getLikes(this.predicate, this.pageNumber, this.pageSize).subscribe({
-      next: members => this.paginatedResult.set(members)
+      next: response => this.paginatedResult.set(response)
     })
   }
 
